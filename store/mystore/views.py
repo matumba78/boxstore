@@ -61,7 +61,7 @@ class BoxView(View):
     def login(self,request):
         from django.contrib.auth import authenticate, login
         username = 'matumba'
-        password = 'msdhoni78'
+        password = 'pr12345'
         user = authenticate(username=username, password=password)
         if user is not None:
             if user.is_active:
